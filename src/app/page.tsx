@@ -1,14 +1,12 @@
 const HomePage = () => {
   return (
-    <div className="w-full mx-auto">
-      <div className="relative pb-[56.25%] overflow-hidden">
+    <div className="w-full p-1 bg-primary rounded-lg shadow-lg">
+      <div className="relative overflow-hidden bg-black rounded-lg h-[700px]">
         <iframe
-          className="absolute top-0 left-0 w-full h-full"
+          className="absolute top-0 left-0 w-full h-full border-0 rounded-lg"
           src="https://www.youtube.com/embed/yCgSrluBxus?autoplay=1&mute=1"
-          style={{ border: '0' }}
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
-          
           title="YouTube Video"
         ></iframe>
       </div>
@@ -17,6 +15,5 @@ const HomePage = () => {
 };
 
 export default HomePage;
-
 
 
