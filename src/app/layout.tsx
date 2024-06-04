@@ -6,10 +6,12 @@ export const metadata: Metadata = {
   title: 'Upperhand League',
   description: 'Splash page for Upperhand League',
 };
-
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en">
+      <head>
+        <meta httpEquiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; script-src 'self'; frame-src https://www.youtube.com; img-src 'self' data:; connect-src 'self'; font-src 'self';"/>
+      </head>
       <body>
         <header className="flex justify-center py-4 bg-gray-800">
           <Image
@@ -26,5 +28,6 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
     </html>
   );
 };
+
 
 export default Layout;
