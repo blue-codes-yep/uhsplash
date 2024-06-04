@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: 'Splash page for Upperhand League',
 };
 
-const Layout = ({ children }) => {
+const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en">
       <body>
