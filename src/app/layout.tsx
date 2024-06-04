@@ -3,8 +3,8 @@ import Image from 'next/image';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'My Next.js App',
-  description: 'A Next.js application with a centered YouTube video and a top logo',
+  title: 'Upperhand League',
+  description: 'Splash page for Upperhand League',
 };
 
 const Layout = ({ children }) => {
